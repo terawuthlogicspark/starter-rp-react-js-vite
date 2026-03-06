@@ -70,7 +70,7 @@ export const AppPdfViewer = (props) => {
 
   return (
     <RPProvider
-      src="ttps://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf"
+      src="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf"
       {...providerProps}
     >
       {showToolbar ? (
